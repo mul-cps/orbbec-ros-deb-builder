@@ -1,0 +1,1 @@
+This repo contains a GitHub workflow that builds binary Debian packages for the [Orbbec ROS 2 package](https://github.com/orbbec/OrbbecSDK_ROS2). See the branches for a target Ubuntu and ROS distribution and follow the instructions there on how to add the Debian repo to your system.
