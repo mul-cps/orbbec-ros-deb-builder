@@ -10,3 +10,9 @@ and follow the instructions in the OrbbecSDK_ROS2 repo on [installing the udev r
 sudo wget https://raw.githubusercontent.com/orbbec/OrbbecSDK_ROS2/refs/heads/main/orbbec_camera/scripts/99-obsensor-libusb.rules -O /etc/udev/rules.d/99-obsensor-libusb.rules
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
+
+Once everything is set up, you can source the base ROS workspace and use the camera driver:
+```sh
+. /opt/ros/jazzy/setup.bash
+ros2 launch orbbec_camera femto_bolt.launch.py
+```
