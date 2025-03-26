@@ -1,0 +1,29 @@
+name: ROS Debian Package Builder
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "README.md"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - {ros: humble, deb: jammy}
+          - {ros: jazzy, deb: noble}
+          - {ros: lyrical, deb: resolute}
+
+    steps:
+      - run: dpkg-architecture >> "$GITHUB_ENV"
+
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROS_DISTRO: ${{ matrix.ros }}
+          DEB_DISTRO: ${{ matrix.deb }}
+          DEB_ARCH: ${{ env.DEB_HOST_ARCH }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SQUASH_HISTORY: true
