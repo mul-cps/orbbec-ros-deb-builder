@@ -1,0 +1,15 @@
+name: ROS Debian Package Builder
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROS_DISTRO: jazzy
+          DEB_DISTRO: noble
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
