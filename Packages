@@ -1,0 +1,88 @@
+Package: ros-humble-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.6-2026.09.30.13.30
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-orbbec-camera
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 73814
+Depends: ros-humble-orbbec-camera (= 2.10.6-2026.09.30.13.30)
+Filename: ./ros-humble-orbbec-camera-dbgsym_2.10.6-2026.09.30.13.30_amd64.ddeb
+Size: 62888796
+MD5sum: e77b2a94c2489b2e7ae75644db7de3e7
+SHA1: a9c3c5a311ec02d8f5b121d10ea40eea5e0a28ef
+SHA256: b7df3fd055a675c5142195c286fe099ce732043ab89f6d99b28913c5e2c26843
+SHA512: 23a73575ac6b4a3d370545e6c79c15c82682dc0cea6b8781b51ad898f9a13943f6d3ace2f123584866a7b40f06f29b08e796f5ecb8aeee178bcde3f53aadf910
+Description: debug symbols for ros-humble-orbbec-camera
+Build-Ids: 03d40762482a6be003c94badee41b5839b5fc7f8 088632de220ffaf49e261c699fa7773266412ec1 1323d6fba0f27d223a7669b5bf8dd3f4199f9065 292132045b0b5d6b09b516138b3dcbbfab5ec270 4110f151840c63a001a7b7429ba31346c345229a 4470d30743a5d70d8ef3478ad4452c0ff217581d 5f7ea656c0588738d03268a56b4d1fd4d104709d 6616a896072fce09cf8a40d308554dc5992814d9 69ba38c10a04edb2fbbfc12729c8d82c26d248ca 6dd5262f4c2df0927877740533f5d4f0376f6d55 71348a6eba8b4742cd8f42f5cc6bf43c2e0bf131 77468dab37dee6fb34abca2b22cd8809a8a8a09d 8f3d5b94ce3bc3006535afb7c2429b9a3ec720db aae1cf901e893f895fcf4cdcfae599397791d907 b3a8524d471d9acc2e0eb7ea423e3a8d3db5b369 b62eb37c8a965b3561efdc1f10e3d61518f3ae19 b6dd17156dc27200f48394a2c716a8e306038624 bf5105e8b8796a5f7410d1807ef5fc3c67492c50 c0753c34b7e34ad4915b7307bbc4237e2f69cb8d c09ae161bcc2b82f7ad93be9c1036a8b0948d007 c0d331714d0a1bed261eb9ef68f18e6c5faf539e ca5e320e16fabe387fddc22cb5af51da8600e97a d9d0098103ae45e29d84b810f649cf7238e77aaa e51d1248e0c20b1bfa5b5873d2d96ea7c3a9ae24 ee7b4316885ddeefe387ef5bb3140aa657babe11 ef673e4b01f74d2d407a6dc455de9cb9b4fc5454 f3b4f4187d6094cd58c352d7089017dc20622970
+
+Package: ros-humble-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.6-2026.09.30.13.29
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-orbbec-camera-msgs
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 4067
+Depends: ros-humble-orbbec-camera-msgs (= 2.10.6-2026.09.30.13.29)
+Filename: ./ros-humble-orbbec-camera-msgs-dbgsym_2.10.6-2026.09.30.13.29_amd64.ddeb
+Size: 2864694
+MD5sum: 49744347820b6babf96ed42e3bdb0733
+SHA1: cbca5f4c22dc9af71ea2a7b76810c19e2a4ede96
+SHA256: 599eb11a0bee6385530a8593ea64d44999dd58129582f46670b57d0336b887ee
+SHA512: e9d2de094a45bc257019f41dbb47c984231bea98672bb40a94b812282d19a232615814eb49d3702abf27ca5a572bacadd3256235f1247440954e01d8e1efcdab
+Description: debug symbols for ros-humble-orbbec-camera-msgs
+Build-Ids: 10b41ccd1d43e4f0d46cdbe325bcaaf4129185c9 18e1b9967c0ef1fdee6a91b34ccce6c80d183097 27b67ce7c8dcdd808ec9305e2b880d6d8cf99233 7341d1e63af0536295915bf22d39fa03549cd8df 776ef74817069155d18bdca890b21367386436d8 97d8c23e4b79905304f0a7dce100358a14e5b4ca a47693d84ac8fcfd90083345d000d038a3fcbbaa bd91bea64b1f2ca049330eb50372bad621bb813c c3d202c70ef67cb800f79f5384a1aebbfecf5e11 c672ae67a4c0aa89001514e440753312e57cf4a6 da41fc36a16eba037a843ac3df9edda33a47f217 eae5d869e7266506e576a788d0bd792fdaf0da09
+
+Package: ros-humble-orbbec-camera-msgs
+Architecture: amd64
+Version: 2.10.6-2026.09.30.13.29
+Priority: optional
+Section: misc
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 7124
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-humble-fastcdr, ros-humble-action-msgs, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs
+Filename: ./ros-humble-orbbec-camera-msgs_2.10.6-2026.09.30.13.29_amd64.deb
+Size: 390208
+MD5sum: b55fec7bcc473614189b10b2c24d9601
+SHA1: b5763e379fea78069106279fdde54f1c91078d26
+SHA256: 39802f9c20660f54ca677809e1989af20ccd66046dc22c20dfb25ee7e5cb4a0c
+SHA512: 1edfec1c8c9a42302a8c94ff7594548e01fd65d7e26b3c0cedb95eb0434b7082f614916c2bd6d2bea554c49bd6d12375cb11c2c936af5245935fd1c033ebce67
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-humble-orbbec-camera
+Architecture: amd64
+Version: 2.10.6-2026.09.30.13.30
+Priority: optional
+Section: misc
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 38945
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.2), libopencv-calib3d4.5d (>= 4.5.4+dfsg), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-highgui4.5d (>= 4.5.4+dfsg), libopencv-imgcodecs4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libssl3 (>= 3.0.0~~alpha1), libstdc++6 (>= 12), libyaml-cpp0.7 (>= 0.7.0), libeigen3-dev, libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, libopencv-dev, libssl-dev, libyaml-cpp-dev, nlohmann-json3-dev, python3-psutil, python3-tabulate, python3-yaml, ros-humble-ament-index-cpp, ros-humble-ament-index-python, ros-humble-ament-lint-auto, ros-humble-ament-lint-common, ros-humble-backward-ros, ros-humble-builtin-interfaces, ros-humble-camera-info-manager, ros-humble-cv-bridge, ros-humble-diagnostic-msgs, ros-humble-diagnostic-updater, ros-humble-geometry-msgs, ros-humble-image-publisher, ros-humble-image-transport, ros-humble-launch, ros-humble-launch-ros, ros-humble-message-filters, ros-humble-orbbec-camera-msgs (>= 2.10.6), ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-action, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-rmw, ros-humble-sensor-msgs, ros-humble-statistics-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-msgs, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs
+Filename: ./ros-humble-orbbec-camera_2.10.6-2026.09.30.13.30_amd64.deb
+Size: 10608552
+MD5sum: b1deb7e691c7b59816f91b7cae226df3
+SHA1: eb7ba5fab8f3a444393456d35d44f1d6bedd82d3
+SHA256: 05187e0eff00efe935085edd5546d6e1282f642d3a5179518e6b923e686ef41c
+SHA512: a947d2115951953504ae3d4c993a3950cff6fd161147064b33432af1d4a6423804009665638f71ef72100132e715db60d18c6bccd6b0216c5c4742949188b819
+Description: Orbbec Camera package
+
+Package: ros-humble-orbbec-description
+Architecture: amd64
+Version: 2.10.6-2026.09.30.13.30
+Priority: optional
+Section: misc
+Maintainer: yalian <yalian@orbbec.com>
+Installed-Size: 119632
+Depends: ros-humble-ament-index-python, ros-humble-launch, ros-humble-launch-ros, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-xacro
+Filename: ./ros-humble-orbbec-description_2.10.6-2026.09.30.13.30_amd64.deb
+Size: 20860708
+MD5sum: ca14909d0ac62c39ce79c2e6357e3f7f
+SHA1: 63ed647afd30065099fafab20ceb68298496470e
+SHA256: 45d216a5a972ac7f5e9d2a4104710e1ed18016cdb544212b1070514ed2d1969a
+SHA512: f4dd509888f2ec9befb5849cd8af228f582dafa872db6aa8057eaeff81f87e69c35c0c19fb166d0d2ebce67f8e5b8b72bf1583fafea1e10322a0b947f763d6b7
+Description: TODO: Package description
+
