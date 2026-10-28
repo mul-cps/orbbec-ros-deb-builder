@@ -1,0 +1,108 @@
+Package: ros-lyrical-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.6-3-g276f02f9-2026.10.28.16.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-orbbec-camera
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 81622
+Depends: ros-lyrical-orbbec-camera (= 2.10.6-3-g276f02f9-2026.10.28.16.12)
+Filename: ./ros-lyrical-orbbec-camera-dbgsym_2.10.6-3-g276f02f9-2026.10.28.16.12_amd64.ddeb
+Size: 68929054
+MD5sum: f6a4aac4bb4f54342fd2777bf25e816f
+SHA1: a8411effbc160bcfce0058d20d7e621526a40fa4
+SHA256: 292e91878d090208621b7ec564f16d5d52e1e583a7de3a254c460470540c3877
+SHA512: ec682c1b71cd7efb23a8e92c9079aa349df29b13c855ac52584531cfef22fa12eb7d15b098cfd364a20e66a8f16f6a23f90e899ae765a29c000eb7776e150f92
+Description: debug symbols for ros-lyrical-orbbec-camera
+Build-Ids: 044c361ee15f33d97932d4178f5e9f637f27202f 0b120c3e7692a1a83d640b77bd47e7c4d5e44428 12a59d86cfe6b2c4ceddbbd941633c3cacacb16b 21eb652f6f6476e231cedcda9d2340ea7f11ee2b 2479dcb8311de1b35fde0e36e1cf53b30090cace 2c392c9e5d03d4daa83982fa4c6d18db33d5a42a 2cb3b82ccb7efed940f965f68dc70106786782c9 43e7707fc07cf4860836833f40386fc24b7780d2 56be9ce5c2eeac03fe180010056b01c13daf6542 6b9577521ff160ac2e9ccdeb6a2dd5230007ddb7 7b83eeb56ecd1652e78aaf6beb295baeb935d0f8 89cfe09834c0c32f02ca14e63f1433f66c986ef6 8b89121372fa7930d0cb703e1c5191ee309036fb 9c3f53c47e04d639b9280e573c1dba5090f7b417 9c9f494b17b2abc099c83c155128ee729666aff8 9d0ab0e6b5667d6ded899f5c9d3f380a802299ec b0a339271009adc7d3117bdad0695539043e573c b17a972315b19e577105889254e04544c4b374c8 b498f2e6721528d98093ae18c7d5cd7b97ad159d c412f7916458ec3d17b9b17984f57a8a0d5042c8 c519a42c84ceaa3057c71033f4cfbd720d9ce538 c90b78a3924da96b6d588f635da39aa3ae9adaf6 d1bf19c58ab990b92525bfd9950e34526ba96f07 ddb67e46e886bd9045a86594e37a1a87eaf1bb0b e1ba756054fe9ce2eadd7e9957539f70ba8a7be1 ea53de658df04bc5f510294395e0470d28db803c f06dc39e1990d78b13f0019f2683cf8af4c6fd77
+
+Package: ros-lyrical-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.6-3-g276f02f9-2026.10.28.16.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-lyrical-orbbec-camera-msgs
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 9605
+Depends: ros-lyrical-orbbec-camera-msgs (= 2.10.6-3-g276f02f9-2026.10.28.16.08)
+Filename: ./ros-lyrical-orbbec-camera-msgs-dbgsym_2.10.6-3-g276f02f9-2026.10.28.16.08_amd64.ddeb
+Size: 7108726
+MD5sum: cd1b7e71bd026d96e665f6da364e418d
+SHA1: b42a97c411b35ec9deefd6c774ace1ac81a5c980
+SHA256: 140cb58377b7144bb5ca1349a0b77a67ea4eb65c0022751092665b0c888e822a
+SHA512: f0a31588dc96fcdeef3959f7c84d8c9515af20237605295faeb2b8af6e57d42c361f0a8bff0402412437353a558ad287b3d9b04e088f490fed24ab4c10cecec2
+Description: debug symbols for ros-lyrical-orbbec-camera-msgs
+Build-Ids: 0e2e42286e7c2ee5202ffb3cbb1c32ad593bc89a 22222cb1d29515b7cf525430add3bb4904e707a6 33b7266e03a7657367b0f89ede25cd797d7342ab 60f3e6bebd9fdfc441e27e0d7c87f50453cb26bd 74e8eeb40a03f965fd30dedf5b19e5cfe3bc7a14 95ad0a5c875f774203a3169853b602aa71ad5434 af4ccddace239f939db6df23e3ac79cc18060bc3 b61ee8184e04380d7f2f7301317a397c8ed47d8f e35116a4b56b76bed6128969610940f66b92017b e922e6c8f420aa9025a5294cce17ce70576f80d9 f6fb1a068a195dd55408d27ff243c7e17b21cf02
+
+Package: ros-lyrical-orbbec-camera-msgs
+Architecture: amd64
+Version: 2.10.6-3-g276f02f9-2026.10.28.16.08
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 12175
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.14 (>= 3.14.1), libstdc++6 (>= 13), ros-lyrical-fastcdr, ros-lyrical-action-msgs, ros-lyrical-rosidl-default-runtime, ros-lyrical-sensor-msgs
+Filename: ./ros-lyrical-orbbec-camera-msgs_2.10.6-3-g276f02f9-2026.10.28.16.08_amd64.deb
+Size: 749252
+MD5sum: 82373482d1f5cf5328f54664dc2ac508
+SHA1: a6445b5f6d419571633b9acba3169eeef1b49243
+SHA256: e329f9fa32bf382a8757c498dc2dd57bca4115f152aa5e4456f8c328c8ba2200
+SHA512: 4d88e8e9bf4f1ea2983921be319220d0a01e424ec1b019ec9f7574ebac527e9536f8389dd78b6605075888c3f8404b6eb5ed727cbc9d1120e2ca2ea85dc14714
+Homepage: https://index.ros.org/p/orbbec_camera_msgs/#lyrical
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-lyrical-orbbec-camera
+Architecture: amd64
+Version: 2.10.6-3-g276f02f9-2026.10.28.16.12
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 41684
+Depends: libc6 (>= 2.43), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.2), libopencv-calib3d410 (>= 4.10.0+dfsg), libopencv-core410 (>= 4.10.0+dfsg), libopencv-highgui410 (>= 4.10.0+dfsg), libopencv-imgcodecs410 (>= 4.10.0+dfsg), libopencv-imgproc410 (>= 4.10.0+dfsg), libopencv-stitching410 (>= 4.10.0+dfsg), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, libopencv-dev, libssl-dev, libyaml-cpp-dev, nlohmann-json3-dev, python3-psutil, python3-tabulate, python3-yaml, ros-lyrical-ament-index-cpp, ros-lyrical-ament-index-python, ros-lyrical-ament-lint-auto, ros-lyrical-ament-lint-common, ros-lyrical-backward-ros, ros-lyrical-builtin-interfaces, ros-lyrical-camera-info-manager, ros-lyrical-cv-bridge, ros-lyrical-diagnostic-msgs, ros-lyrical-diagnostic-updater, ros-lyrical-geometry-msgs, ros-lyrical-image-publisher, ros-lyrical-image-transport, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-message-filters, ros-lyrical-orbbec-camera-msgs (>= 2.10.6), ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-action, ros-lyrical-rclcpp-components, ros-lyrical-rclpy, ros-lyrical-rmw, ros-lyrical-sensor-msgs, ros-lyrical-statistics-msgs, ros-lyrical-std-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2, ros-lyrical-tf2-msgs, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs
+Filename: ./ros-lyrical-orbbec-camera_2.10.6-3-g276f02f9-2026.10.28.16.12_amd64.deb
+Size: 10963608
+MD5sum: ce3510b051c9cc196274625c9c784a83
+SHA1: 1444dec9912c297736fc5ba78201a55155c121a2
+SHA256: 8101028d3d24d568513f31be70c74658a6384b3ada1f68b44b956d89b8b81f91
+SHA512: bcdfc54cbc738a97f8832ad505422e3463a9189ce03d43235dd345b56f4e64d9756a18841fdfc09197a8f8a7acd87a5e3a3ba41345870bf66668de5f9ed5a464
+Homepage: https://index.ros.org/p/orbbec_camera/#lyrical
+Description: Orbbec Camera package
+
+Package: ros-lyrical-orbbec-description
+Architecture: amd64
+Version: 2.10.6-3-g276f02f9-2026.10.28.16.10
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 119635
+Depends: ros-lyrical-ament-index-python, ros-lyrical-launch, ros-lyrical-launch-ros, ros-lyrical-robot-state-publisher, ros-lyrical-rviz2, ros-lyrical-xacro
+Filename: ./ros-lyrical-orbbec-description_2.10.6-3-g276f02f9-2026.10.28.16.10_amd64.deb
+Size: 20831726
+MD5sum: eae50bbb5313cd4099d6c6e0780f58af
+SHA1: 540b44f126d11816172ab4f898093d9ad8929bca
+SHA256: 632a2c2d291a36c13f7c1bfb68b000662e5d7935433c574efb58fbdb00afd0c4
+SHA512: e5259dd52603652ba8bf0fd2f6629a5ed06ac33502f06d21c7becf256c8456793d5c5cb9e27921c66e53a1a05faac7cf6aa504cd5aac1294ede2d2d58cf7ba3f
+Homepage: https://index.ros.org/p/orbbec_description/#lyrical
+Description: TODO: Package description
+
+Package: ros-lyrical-rgbd-recorder-ros
+Architecture: amd64
+Version: 0-2026.10.28.16.11
+Priority: optional
+Section: misc
+Maintainer: "Your Name" <you@example.com>
+Installed-Size: 122
+Depends: libpyside6-dev, python3-numpy, python3-opencv, ros-lyrical-cv-bridge, ros-lyrical-message-filters, ros-lyrical-rclpy, ros-lyrical-sensor-msgs, ros-lyrical-std-srvs, ros-lyrical-tf2-ros
+Filename: ./ros-lyrical-rgbd-recorder-ros_0-2026.10.28.16.11_amd64.deb
+Size: 28780
+MD5sum: 95ca299230fe8a644da4caeb0dbdcc8f
+SHA1: 34bd182d3219d7d0d9346d4a4d5dcb6e40cfa328
+SHA256: fde67565f1a28babaa25c0ada1e10ab9ca580eee00973fb7cd439f05f77d5de0
+SHA512: 18aac6ca3be73c384a278994a37d9da2028cd501a3005febec4153779309a4619fff96cef1c5b90e29da73dbae1888166a85cb5e56b26926d03e0912d264a3d3
+Homepage: https://index.ros.org/p/rgbd_recorder_ros/#lyrical
+Description: ROS 2 node that subscribes to colour/depth images, camera intrinsics and TF extrinsics, visualises the streams side-by-side and exports them as a standard RGB-D dataset (toggled with the SPACE key).
+
