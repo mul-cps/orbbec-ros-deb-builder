@@ -1,0 +1,12 @@
+orbbec_camera_msgs:
+  ubuntu:
+  - ros-humble-orbbec-camera-msgs
+orbbec_description:
+  ubuntu:
+  - ros-humble-orbbec-description
+rgbd_recorder_ros:
+  ubuntu:
+  - ros-humble-rgbd-recorder-ros
+orbbec_camera:
+  ubuntu:
+  - ros-humble-orbbec-camera
