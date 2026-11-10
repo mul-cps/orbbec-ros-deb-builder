@@ -2,7 +2,7 @@ repositories:
   src/OrbbecSDK_ROS2:
     type: git
     url: https://github.com/orbbec/OrbbecSDK_ROS2.git
-    version: v2.10.6
+    version: v2.10.7
   src/rgbd_recorder_ros:
     type: git
     url: https://github.com/mul-cps/rgbd_recorder_ros.git
