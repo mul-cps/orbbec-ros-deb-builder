@@ -1,0 +1,108 @@
+Package: ros-jazzy-orbbec-camera-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.7-2026.11.10.15.57
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-orbbec-camera
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 74648
+Depends: ros-jazzy-orbbec-camera (= 2.10.7-2026.11.10.15.57)
+Filename: ./ros-jazzy-orbbec-camera-dbgsym_2.10.7-2026.11.10.15.57_amd64.ddeb
+Size: 64019920
+MD5sum: 625fb9cbea8a24cba2b214cd80df05e5
+SHA1: 457a8a54b364c0b2af641296b096abbb342e568c
+SHA256: ae25629bc806e39d498d461db8fe05bb94db1aa16f66df1188a3cea80d411916
+SHA512: 65889b745bd8965472335ce0a886917fe733688387befce1199d70f2ba5a0d9e755bd3cc019129a7da067ce252969f5fad66f768f0fc3056a957aebc35c5acad
+Description: debug symbols for ros-jazzy-orbbec-camera
+Build-Ids: 089c967baec5cf868276469316710b8e516fd739 08bd54900cd9a1b6f010db9dcf3a27abf2391c2c 10908dd68ff76fceaec46b774bcb974e29cb6b58 20e33844350f2fede3c43d593b966f04441f0466 27b69e35eba5f4e227221e3672ee0455aaf72c49 2f67ee0afcf0e5e5b5ed4fbee4971aaf8cf38e77 319e52ec10f016e9a94764bc5925b1b0572f4caf 32afad4b3f127a013ffa5126307e909a3678a4b7 528ea2b18157312da2dc3c17a7ebf8b34c4ba4c3 55324ba02038502c6b57ea5cf89b560af074667a 56c9f97f5f7628ba33600c623a38587a6616f26b 693920884428fb84f88c142b043cb8fbb140b621 725c37ecc3e915faa76dff3289a20ac233852f7d 77c0a29aa144f89db0a3404742f391b2e6adc02f 7bd4151fb2916b190a9934b1e8dd3d3bc1ac304e 80156e7b3046026d965d2b155246184b33bc4c7e 811a99b2225179ddf0750264447bf306ff58d8f7 86e0ffff855bf0b845d7bb861740b448bb8d0f93 9636b8548c71a3b898e5f1c527ea606a48ebca4e a2dabdc8b678d4f9f224310069b204e56d0fcc8c a48ea57cbfa5f27e4deca7b847832ea061b00b2e a8e67dd99fad7bb5815fed3226dcb6a573d7c9ff af3f805ef743e9b63cd72bbab82faa7c012cac64 c3b87efa4ba780fdab7f307da454d9513e2f6a23 c5a6ab83797e1fe76bf2c93f7639caf70ab71af6 dba3efed4e2351889d21d0d76d959a8e076ca0fa e22145ba9322f73aa405c08785acafe8c84c9458
+
+Package: ros-jazzy-orbbec-camera-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 2.10.7-2026.11.10.15.48
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-orbbec-camera-msgs
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 8282
+Depends: ros-jazzy-orbbec-camera-msgs (= 2.10.7-2026.11.10.15.48)
+Filename: ./ros-jazzy-orbbec-camera-msgs-dbgsym_2.10.7-2026.11.10.15.48_amd64.ddeb
+Size: 6563228
+MD5sum: 4801efddc4972d81333dd90be0af1178
+SHA1: a4131a74fd0d14268dc54a367e4bba58c5d512fc
+SHA256: 1b21851fc00ef30dd6da457d492b03af5ac920dcf2a6583225bec47c5ba39892
+SHA512: 2fefefd449b6776b553db985014cded3612d0bf8a6dfcaa67756020042badb47a72d842abd01bb3af5b770673e94db578658db22dbeb0ff8b42896049cfc6048
+Description: debug symbols for ros-jazzy-orbbec-camera-msgs
+Build-Ids: 2241d68ec70c4e0fafafffe5bc5cae7a05e24471 2710f47b8721e070ef3125f22cd42a97abad050e 4e234595113e69d47048ad6cbd701818b41e1c2f 74f3738241c8805fe30fdd6cb26f0c1ac4289ebe 90cb5a048f73f4dc529ebdddda0ba6e24d432594 95628b574291fe7fe7f7d7846beb19bdcb944940 9b6eb553be7a024d31b170c607db0e0ad95099c1 a7b3fced4346cf0909d2bde4de4af79719fcbce6 be40b2e5afaf88d499593a2ea4cc468dfc1e10c2 ed1512de5517b0f50ab9b4b1fb634380979d9440 edf393e3a4729b57c5bc9b924ad34939d23b7251
+
+Package: ros-jazzy-orbbec-camera-msgs
+Architecture: amd64
+Version: 2.10.7-2026.11.10.15.48
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 11632
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-action-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-orbbec-camera-msgs_2.10.7-2026.11.10.15.48_amd64.deb
+Size: 683706
+MD5sum: 0aea0c03d5c0b99d9547716491ef11ee
+SHA1: 952ae0cd613d74bae3cfb7cea75a03ce56257ac4
+SHA256: c668c0be812eb8f118aea0e22ad5538812f2e55d9f0ebc398a6cd19af2eba601
+SHA512: 6aeebbb06f205778c1f33b05ae30ee147f5cd0f24c9f4c93a51701e1339a8dd44726212b2d0109c2b16e29824cab0ee2a611b98e48e58b7fd23be0d2bad8ce39
+Homepage: https://index.ros.org/p/orbbec_camera_msgs/#jazzy
+Description: A package containing orbbec camera messages definitions.
+
+Package: ros-jazzy-orbbec-camera
+Architecture: amd64
+Version: 2.10.7-2026.11.10.15.57
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 40844
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libegl1, libgcc-s1 (>= 4.2), libopencv-calib3d406t64 (>= 4.6.0+dfsg), libopencv-core406t64 (>= 4.6.0+dfsg), libopencv-highgui406t64 (>= 4.6.0+dfsg), libopencv-imgcodecs406t64 (>= 4.6.0+dfsg), libopencv-imgproc406t64 (>= 4.6.0+dfsg), libopencv-stitching406t64 (>= 4.6.0+dfsg), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libyaml-cpp0.8 (>= 0.7.0), libeigen3-dev, libgflags-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgoogle-glog-dev, libopencv-dev, libssl-dev, libyaml-cpp-dev, nlohmann-json3-dev, python3-psutil, python3-tabulate, python3-yaml, ros-jazzy-ament-index-cpp, ros-jazzy-ament-index-python, ros-jazzy-ament-lint-auto, ros-jazzy-ament-lint-common, ros-jazzy-backward-ros, ros-jazzy-builtin-interfaces, ros-jazzy-camera-info-manager, ros-jazzy-cv-bridge, ros-jazzy-diagnostic-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-geometry-msgs, ros-jazzy-image-publisher, ros-jazzy-image-transport, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-message-filters, ros-jazzy-orbbec-camera-msgs (>= 2.10.7), ros-jazzy-pluginlib, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-rmw, ros-jazzy-sensor-msgs, ros-jazzy-statistics-msgs, ros-jazzy-std-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2, ros-jazzy-tf2-msgs, ros-jazzy-tf2-ros, ros-jazzy-tf2-sensor-msgs
+Filename: ./ros-jazzy-orbbec-camera_2.10.7-2026.11.10.15.57_amd64.deb
+Size: 10804702
+MD5sum: e650687a8bddbc346e872b9899c7a63b
+SHA1: 505f04a49bb66df4c5b6079b3675f102f9a10061
+SHA256: 791b13776844ee31ab60510d21f37b81b556c89211a9b9b3032abd9e0720a556
+SHA512: 03f9a2997493807c15fb3724f35408815f8a19981b8ee8f2c22110dc6c64cae08a62dee1d10daa987eed6a194e7ef51a5f73877a7bf486eb7a1c69295b5e5cae
+Homepage: https://index.ros.org/p/orbbec_camera/#jazzy
+Description: Orbbec Camera package
+
+Package: ros-jazzy-orbbec-description
+Architecture: amd64
+Version: 2.10.7-2026.11.10.15.51
+Priority: optional
+Section: misc
+Maintainer: "yalian" <yalian@orbbec.com>
+Installed-Size: 119632
+Depends: ros-jazzy-ament-index-python, ros-jazzy-launch, ros-jazzy-launch-ros, ros-jazzy-robot-state-publisher, ros-jazzy-rviz2, ros-jazzy-xacro
+Filename: ./ros-jazzy-orbbec-description_2.10.7-2026.11.10.15.51_amd64.deb
+Size: 20810516
+MD5sum: e0140c06ee1d5b3f36ed33f3d8a967dd
+SHA1: 50a44d5032acf44c40bd76fac9444b67fc0f22ac
+SHA256: 5cd1fda565aac1b6d77d337b10c5980809c7d4166fb5b6a233d4d417db454e6f
+SHA512: db1e2bb1d8798f7d8dc10b676f94055e94db1cf024c0d6a4d083d1053b494412920a60aa8af37bc9a64275ab134fa9040ddabbe70dacbbf220971bf1580f9b60
+Homepage: https://index.ros.org/p/orbbec_description/#jazzy
+Description: TODO: Package description
+
+Package: ros-jazzy-rgbd-recorder-ros
+Architecture: amd64
+Version: 0-2026.11.10.15.52
+Priority: optional
+Section: misc
+Maintainer: "Your Name" <you@example.com>
+Installed-Size: 119
+Depends: python3-numpy, python3-opencv, ros-jazzy-cv-bridge, ros-jazzy-message-filters, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-srvs, ros-jazzy-tf2-ros
+Filename: ./ros-jazzy-rgbd-recorder-ros_0-2026.11.10.15.52_amd64.deb
+Size: 28002
+MD5sum: 8eb35955d84943a55fc8bf5e2134bdbc
+SHA1: 901079e5336a9da3ca41b43527ad5690b73fede3
+SHA256: 45407bfa0e9d7b8d9f76279cb2ef1568f0229acacf9cc07d484dd136bf3e031a
+SHA512: 7526ed7ec792fdb8873f1d135210062483b56ed7e93db5acb9d84d3fa58d52b3e4f51b8e573fa843e6f626bdc1841de89973525df6933fd234466885a1b9994e
+Homepage: https://index.ros.org/p/rgbd_recorder_ros/#jazzy
+Description: ROS 2 node that subscribes to colour/depth images, camera intrinsics and TF extrinsics, visualises the streams side-by-side and exports them as a standard RGB-D dataset (toggled with the SPACE key).
+
